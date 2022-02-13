@@ -1,239 +1,238 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>How To Create A Song</title>
+  <title>How To Create A Song</title>
 
-<head>
-  <style>
-  * {
-    box-sizing: border-box;
-  }
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
 
-  body {
-    font-family: Arial;
-    padding: 10px;
-    background: #f1f1f1;
-  }
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
 
-  nav header {
-    color: white;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-  }
+      nav header {
+        color: white;
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+      }
 
-  main header {
-    font-size: 2rem;
-  }
+      main header {
+        font-size: 2rem;
+      }
 
-  /* Header/Blog Title */
-  .header {
-    padding: 30px;
-    text-align: center;
-    background: white;
-  }
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
 
-  .header h1 {
-    font-size: 50px;
-  }
+      .header h1 {
+        font-size: 50px;
+      }
 
-  /* Style the top navigation bar */
-  .topnav {
-    overflow: hidden;
-    background-color: #222;
-  }
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #222;
+      }
 
-  /* Style the topnav links */
-  .topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 16px 75px;
-    text-decoration: none;
-  }
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 16px 75px;
+        text-decoration: none;
+      }
 
-  /* Change color on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
 
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {
-    float: left;
-    width: 20%;
-    height: 100%;
-  }
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 20%;
+        height: 100%;
+      }
 
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 80%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-  }
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 80%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
 
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
+      /* Fake image */
+      .fakeimg {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
 
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
 
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
 
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
 
-  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
-      width: 100%;
-      padding: 0;
-    }
-  }
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn, .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
 
-  /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-  @media screen and (max-width: 400px) {
-    .topnav a {
-      float: none;
-      width: 100%;
-    }
-  }
+      /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+      @media screen and (max-width: 400px) {
+        .topnav a {
+          float: none;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
 
-  /* #navbar {
-    position: relative;
-    top: 0px;
-  } */
-
-
-</style>
-</head>
-<body>
-  <div class="row">
-    <div class="leftcolumn">
-      <div class="card">
-        <nav class="topnav" id="navbar">
-          <header>
-            5 Steps
-          </header>
-          <hr>
-          <a class="nav-link" href="#songwriting">
-            Songwriting</a>
+  <body>
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <nav class="topnav" id="navbar">
+            <header>
+              5 Steps
+            </header>
+            <hr>
+            <a class="nav-link" href="#songwriting">
+              Songwriting</a>
             <a class="nav-link" href="#arranging">
               Arranging</a>
-              <a class="nav-link" href="#rehearsing">
-                Rehearsing</a>
-                <a class="nav-link" href="#performing">
-                  Performing</a>
-                  <a class="nav-link" href="#producing">
-                    Producing</a>
-                  </nav>
-                </div>
-              </div>
+            <a class="nav-link" href="#rehearsing">
+              Rehearsing</a>
+            <a class="nav-link" href="#performing">
+              Performing</a>
+            <a class="nav-link" href="#producing">
+              Producing</a>
+          </nav>
+        </div>
+      </div>
 
-              <div class="rightcolumn">
+      <div class="rightcolumn">
 
-                <div class="header">
-                  <h1>How To Create A Song</h1>
-                </div>
+        <div class="header">
+          <h1>How To Create A Song</h1>
+        </div>
 
-                <main id="main-doc">
-                  <div class="card">
-                    <section class="main-section" id="songwriting">
-                      <header>Songwriting</header>
-                      <code>Demo Tapes</code>
-                      <h5>Shaping Air Molecules</h5>
-                      <p>Step 1: </p>
-                      <p>
-                        Once a melody, chords or a beat hits you, record it on any accessible device.
-                        If its a melody, work on the chords around it. If its chords, hum a melody over it. If its a rhythm,
-                        hum a bass line to it. Write lyrics if it helps, or avoid it if it gets in the way.<br>
-                        Write at least 1 contrasting section. Shape the 2 sections into a beginning, middle and end.
-                      </p>
-                    </section>
-                  </div>
-                  <div class="card">
-                    <section class="main-section" id="arranging">
-                      <header>Arranging</header>
-                      <code>Writing the parts</code>
-                      <h5>Shaping Dots On Paper</h5>
-                      <p>Step 2:</p>
-                      <p>
-                        Select a style by playing with rhythms and tempo. Find a key that works best for all instruments in the song.
-                        Feel the tempo that supports the melody and lyrics. Make each section unique by adding or subtracting elements.
-                      </p>
-                    </section>
-                  </div>
-                  <div class="card">
-                    <section class="main-section" id="rehearsing">
-                      <header>Rehearsing</header>
-                      <code>Working the parts</code>
-                      <h5>Title description, Dec 7, 2017</h5>
-                      <p>Step 3:</p>
-                      <p>
-                        Split rehearsal into groups
-                      </p>
-                      <ol>
-                        <li>Drum & Bass</li>
-                        <li>Rhythm section</li>
-                        <li>Harmony section</li>
-                        <li>Background harmony</li>
-                        <li>Everyone together</li>
-                      </ol>
-                      <p>
-                        Working with individual sections will weave out small errors. Rehearse until the song is memorized and can be played effortlessly. <br>
-                        Practice is for the individual, rehearsal is for the group.
-                      </p>
-                    </section>
-                  </div>
-                  <div class="card">
-                    <section class="main-section" id="performing">
-                      <header>Performing</header>
-                      <code>Playing the parts</code>
-                      <h5>It's Alive!</h5>
-                      <p>Step 4:</p>
-                      <p>
-                        Your practice has paid off and its time to lay down tracks. Recording is a mental game. The red flashing dot can throw us off but it's
-                        important to clear the mind, and allow muscle memory to take over. Records have feel, and that feeling comes from the intent of the player.<br>
-                        This is where the song comes to life. We can only work on what has been recorded.
-                      </p>
-                    </section>
-                  </div>
-                  <div class="card">
-                    <section class="main-section" id="producing">
-                      <header>Producing</header>
-                      <code>Mixing the parts</code>
-                      <h5>Solidify The Process</h5>
-                      <p>Step 5:</p>
-                      <p>
-                        Tracks are recorded and its time to mix. Use EQ's to clear up sounds that occupy similar frequency; apply compression as needed (based on style);
-                        add effects (reverb,delay,chorus,flanger) to blend something in, or make it stand out; automate any of these functions to contrast each section.<br>
-                        Find 3 to 5 songs you really like and use them to A/B your mix as you go along.
-                      </p>
-                    </section>
-                  </div>
-                </main>
-              </div>
-            </div>
-            <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-          </body>
-          </html>
+        <main id="main-doc">
+
+          <div class="card">
+            <section class="main-section" id="songwriting">
+              <header>Songwriting</header>
+              <code>Demo Tapes</code>
+              <h5>Shaping Air Molecules</h5>
+                <p>Step 1: </p>
+                <p>
+                  Once a melody, chords or a beat hits you, record it on any accessible device.
+                  If its a melody, work on the chords around it. If its chords, hum a melody over it. If its a rhythm,
+                  hum a bass line to it. Write lyrics if it helps, or avoid it if it gets in the way.<br>
+                  Write at least 1 contrasting section. Shape the 2 sections into a beginning, middle and end.
+                </p>
+            </section>
+          </div>
+
+          <div class="card">
+            <section class="main-section" id="arranging">
+              <header>Arranging</header>
+              <code>Writing the parts</code>
+              <h5>Shaping Dots On Paper</h5>
+                <p>Step 2:</p>
+                <p>
+                  Select a style by playing with rhythms and tempo. Find a key that works best for all instruments in the song.
+                  Feel the tempo that supports the melody and lyrics. Make each section unique by adding or subtracting elements.
+                </p>
+            </section>
+          </div>
+
+          <div class="card">
+            <section class="main-section" id="rehearsing">
+              <header>Rehearsing</header>
+              <code>Working the parts</code>
+              <h5>Get In Formation</h5>
+                <p>Step 3:</p>
+                <p>
+                  Split rehearsal into groups
+                </p>
+                  <ol>
+                    <li>Drum & Bass</li>
+                    <li>Rhythm section</li>
+                    <li>Harmony section</li>
+                    <li>Background harmony</li>
+                    <li>Everyone together</li>
+                  </ol>
+                <p>
+                  Working with individual sections will weave out small errors. Rehearse until the song is memorized and can be played effortlessly. <br>
+                  Practice is for the individual, rehearsal is for the group.
+                </p>
+            </section>
+          </div>
+
+          <div class="card">
+            <section class="main-section" id="performing">
+              <header>Performing</header>
+              <code>Playing the parts</code>
+              <h5>It's Alive!</h5>
+                <p>Step 4:</p>
+                <p>
+                  Your practice has paid off and its time to lay down tracks. Recording is a mental game. The red flashing dot can throw us off but it's
+                  important to clear the mind, and allow muscle memory to take over. Records have feel, and that feeling comes from the intent of the player.<br>
+                  This is where the song comes to life. We can only work on what has been recorded.
+                </p>
+            </section>
+          </div>
+
+          <div class="card">
+            <section class="main-section" id="producing">
+              <header>Producing</header>
+              <code>Mixing the parts</code>
+              <h5>Solidify The Process</h5>
+                <p>Step 5:</p>
+                <p>
+                  Tracks are recorded and its time to mix. Use EQ's to clear up sounds that occupy similar frequency; apply compression as needed (based on style);
+                  add effects (reverb,delay,chorus,flanger) to blend something in, or make it stand out; automate any of these functions to contrast each section.<br>
+                  Find 3 to 5 songs you really like and use them to A/B your mix as you go along.
+                </p>
+            </section>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
